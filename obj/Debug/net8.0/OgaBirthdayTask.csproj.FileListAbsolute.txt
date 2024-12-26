@@ -1,0 +1,14 @@
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\bin\Debug\net8.0\OgaBirthdayTask.exe
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\bin\Debug\net8.0\OgaBirthdayTask.deps.json
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\bin\Debug\net8.0\OgaBirthdayTask.runtimeconfig.json
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\bin\Debug\net8.0\OgaBirthdayTask.dll
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\bin\Debug\net8.0\OgaBirthdayTask.pdb
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.AssemblyInfoInputs.cache
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.AssemblyInfo.cs
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.csproj.CoreCompileInputs.cache
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.dll
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\refint\OgaBirthdayTask.dll
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.pdb
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\OgaBirthdayTask.genruntimeconfig.cache
+c:\Users\ayomi\OneDrive\Desktop\OgaBirthdayTask\obj\Debug\net8.0\ref\OgaBirthdayTask.dll
