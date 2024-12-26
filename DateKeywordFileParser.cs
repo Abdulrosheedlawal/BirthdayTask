@@ -3,25 +3,25 @@ using System.Globalization;
 
 public static class DateKeywordFileParser
 {
-    public static string Parse(string fileName, string format = "yyyy-MM-dd HH:mm:ss", string locale = "en-US")
+    public static string Parse(string fileName, string format = "yyyy-MM-dd HH:mm", string locale = "en-US")
     {
         DateTime date = default;
         var culture = new CultureInfo(locale);
 
-        if (fileName.ToUpper().Contains("YESTERDAY"))
+        if (fileName.Contains("YESTERDAY", StringComparison.OrdinalIgnoreCase))
         {
             date = DateTime.Now.AddDays(-1);
-            fileName = fileName.Replace("YESTERDAY", "");
+            fileName =  fileName.Replace("YESTERDAY", "", StringComparison.OrdinalIgnoreCase);
         }
-        else if (fileName.ToUpper().Contains("TODAY"))
+        else if (fileName.Contains("TODAY", StringComparison.OrdinalIgnoreCase))
         {
             date = DateTime.Today;
-            fileName = fileName.Replace("TODAY", "");
+            fileName = fileName.Replace("TODAY", "", StringComparison.OrdinalIgnoreCase);
         }
-        else if (fileName.ToUpper().Contains("NOW"))
+        else if (fileName.Contains("NOW", StringComparison.OrdinalIgnoreCase))
         {
             date = DateTime.Now;
-            fileName = fileName.Replace("NOW", "");
+            fileName = fileName.Replace("NOW", "", StringComparison.OrdinalIgnoreCase);
         }
 
         if (fileName.Contains("+") || fileName.Contains("-"))
